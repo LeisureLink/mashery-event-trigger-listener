@@ -4,7 +4,8 @@
   "description": "Listens to Mashery's Eventing webhooks",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
     "good": "^6.4.0",
     "good-console": "^5.2.0",
     "hapi": "^11.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
